@@ -1,23 +1,101 @@
-@font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+}
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: "Yoon 윤고딕", "돋움", dotum, sans-serif;
+  color: #000;
 }
 
-html > body {
-  font-family: "GmarketSansMedium";
+ul,
+li {
+  list-style: none;
 }
 
-.con {
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.nav-content {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 81px;
+  width: 1120px;
+}
+
+.nav-items {
   width: 1080px;
+  height: 100%;
+  display: block;
+  font-size: 0;
+  text-align: right;
+  margin: auto;
 }
 
-.con-min-width {
-  min-width: 1080px;
+.nav-logo {
+  height: 80px;
+  display: inline-block;
+  float: left;
+  width: 116px;
+  line-height: 80px;
+  position: relative;
 }
 
-.menu-1 > ul > li > a {
-  margin-top: 30px;
+.nav-logo a {
+  vertical-align: middle;
+  width: 116px;
+  height: 20px;
+}
+
+.nav-global {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 81px;
+  background: transparent;
+  min-width: 1120px;
+  font-family: "Yoon 윤고딕", "돋움", dotum, sans-serif;
+  -webkit-transition: background 0.5s, color 0.5s;
+  transition: background 0.5s, color 0.5s;
 }
