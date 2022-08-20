@@ -1,101 +1,39 @@
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-textarea,
-p,
-blockquote,
-th,
-td,
-input,
-select,
-textarea,
-button {
-  margin: 0;
-  padding: 0;
-}
-body,
-th,
-td,
-input,
-select,
-textarea,
-button {
-  font-size: 12px;
-  line-height: 1.5;
-  font-family: "Yoon 윤고딕", "돋움", dotum, sans-serif;
-  color: #000;
-}
-
-ul,
-li {
-  list-style: none;
-}
-
-ul {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
-
 .nav-content {
-  background-color: #fff;
+  display: inline-block;
+  width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  height: 81px;
-  width: 1120px;
 }
 
 .nav-items {
-  width: 1080px;
-  height: 100%;
-  display: block;
-  font-size: 0;
-  text-align: right;
-  margin: auto;
-}
-
-.nav-logo {
+  display: flex;
+  justify-content: center;
   height: 80px;
-  display: inline-block;
-  float: left;
-  width: 116px;
-  line-height: 80px;
-  position: relative;
+  width: 1200px;
 }
 
-.nav-logo a {
-  vertical-align: middle;
-  width: 116px;
-  height: 20px;
+.nav-logo,
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-right: 300px;
+  white-space: nowrap;
 }
 
-.nav-global {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 81px;
-  background: transparent;
-  min-width: 1120px;
-  font-family: "Yoon 윤고딕", "돋움", dotum, sans-serif;
-  -webkit-transition: background 0.5s, color 0.5s;
-  transition: background 0.5s, color 0.5s;
+.nav-item {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+.nav-item:last-child {
+  text-decoration: none;
+}
+
+.nav-item:last-child > a {
+  padding: 10px 20px;
+  background-color: #fede22;
+  border: 1px solid #fede22;
+  border-radius: 22px;
 }
