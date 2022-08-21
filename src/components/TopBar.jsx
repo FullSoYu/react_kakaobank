@@ -15,24 +15,41 @@ const TopBar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#">은행소개</a>
+            <a href="#" className="nav-title">
+              은행소개
+            </a>
+            <div className="nav-subs"> </div>
           </li>
           <li className="nav-item">
-            <a href="#">IR투자정보</a>
+            <a href="#" className="nav-title">
+              IR투자정보
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#">상품안내</a>
+            <a href="#" className="nav-title">
+              상품안내
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#">고객센터</a>
+            <a href="#" className="nav-title">
+              고객센터
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#">이벤트</a>
+            <a href="#" className="nav-title">
+              이벤트
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#">서류제출하기</a>
+            <a href="#" className="nav-title">
+              서류제출하기
+            </a>
           </li>
         </ul>
+      </div>
+      <div className="intro_main">
+        <div className="intro_main_content"></div>
+        <div className="background-line"></div>
       </div>
     </div>
   );
