@@ -18,7 +18,9 @@ const TopBar = () => {
             <a href="#" className="nav-title">
               은행소개
             </a>
-            <div className="nav-subs"> </div>
+            <div className="nav-subs">
+              <div className="nav-sub"></div>
+            </div>
           </li>
           <li className="nav-item">
             <a href="#" className="nav-title">
