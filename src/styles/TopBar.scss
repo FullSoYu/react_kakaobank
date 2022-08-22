@@ -1,7 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.nav-golobal {
+  font-family: "GmarketSansMedium";
+}
+
 .nav-content {
   display: flex;
   justify-content: center;
-
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -76,5 +85,47 @@
   top: 0;
 }
 
+.nav-item > .nav-subs {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 315.5px;
+  bottom: 100%;
+  transform: translateY(1px);
+  background-color: white;
+  top: 80px;
+  z-index: 2;
+}
+
 .nav-item:hover > .nav-subs {
+  display: block;
+}
+
+.nav-sub {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-sub-item {
+  display: inline-block;
+  text-align: center;
+  height: 270px;
+  width: 215.5px;
+}
+.nav-sub-item:nth-child(2),
+.nav-sub-item:nth-child(3) {
+  margin: 40px 0 40px;
+}
+.nav-sub-item:last-child {
+  margin-left: 50px;
+}
+.nav-sub-item {
+  margin-top: 40px;
+}
+
+.nav-sub-title {
+  display: inline-block;
+  font-size: 17px;
+  margin-bottom: 20px;
 }
