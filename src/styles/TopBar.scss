@@ -203,3 +203,41 @@ body {
   margin-top: -4px;
   background-position: -371px -292px;
 }
+
+.intro_cont.cont_withdrawal {
+  height: 750px;
+}
+
+.intro_cont {
+  display: flex;
+  justify-content: center;
+}
+
+.cont_img_img {
+  width: 473px;
+}
+
+.cont_txt_h3 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.35;
+  margin-top: 200px;
+}
+
+.cont_txt_p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-top: 25px;
+}
+
+.cont_txt_h3,
+.cont_txt_p {
+  margin-left: 100px;
+}
+
+.link_bank {
+  width: 258px;
+  height: 56px;
+  background-color: #f6f6f6;
+}
