@@ -668,11 +668,17 @@ const TopBar = () => {
             당신의 모든 일이 바뀌고 있습니다.
           </p>
           <ul className="list_store">
-            <li>
-              <a href="#" className="link_store"></a>
+            <li className="link_stores">
+              <a href="#" className="link_store">
+                <span className="img_kabang"></span>
+                GooglePlay
+              </a>
             </li>
-            <li>
-              <a href="#" className="link_store"></a>
+            <li className="link_stores">
+              <a href="#" className="link_store">
+                <span className="img_kabang ico_app"></span>
+                App Store
+              </a>
             </li>
           </ul>
         </div>
