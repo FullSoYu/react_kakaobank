@@ -709,9 +709,17 @@ const TopBar = () => {
         <div className="cont_btn">
           <a className="link_bank" href="#">
             카카오뱅크 입출금통장
+            <img
+              className="ico_arr"
+              src="https://www.kakaobank.com/static/images/web/home_arr.png"
+              alt=""
+            />
           </a>
         </div>
       </div>
+      {/* 나눌영역 */}
+      <div className="intro_cont_divider"></div>
+      <div className="intro_cont cont_deposit_and_savings"></div>
     </div>
   );
 };
