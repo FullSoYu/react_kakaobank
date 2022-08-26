@@ -719,6 +719,7 @@ const TopBar = () => {
       </div>
       {/* 나눌영역 */}
       <div className="intro_cont_divider"></div>
+      {/* 나눌영역 */}
       <div className="intro_cont cont_deposit_and_savings"></div>
     </div>
   );
