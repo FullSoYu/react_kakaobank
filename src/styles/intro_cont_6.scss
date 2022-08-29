@@ -1,0 +1,74 @@
+.intro_cont_6 {
+  height: 750px;
+  background-color: white;
+  position: relative;
+  background-image: url("https://www.kakaobank.com/static/images/web/home_map.png");
+  background-position-x: -12%;
+  background-position-y: 50%;
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(255, 255, 255);
+}
+
+.intro_cont_6_img > img {
+  position: absolute;
+  top: 20px;
+  right: 55%;
+  width: 408px;
+  height: 715px;
+  margin: 0 -40px 0 -155px;
+}
+
+.intro_cont_6_txt {
+  position: absolute;
+  top: 196px;
+  left: 50%;
+  margin-left: 90px;
+}
+
+.intro_cont_6_txt > h3 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.35;
+}
+
+.intro_cont_6_txt > p {
+  margin-top: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #666;
+}
+
+.intro_cont_6_btn {
+  position: absolute;
+  top: 492px;
+  left: 50%;
+  margin-left: 90px;
+}
+
+.intro_cont_6_btn > a {
+  display: block;
+  width: 258px;
+  height: 56px;
+  background-color: #f6f6f6;
+  font-size: 16px;
+  line-height: 56px;
+  color: #333;
+  border-radius: 10px;
+  text-align: center;
+}
+.intro_cont_6_btn > a:hover {
+  text-decoration: underline;
+}
+
+.intro_cont_6_btn > a > img {
+  display: inline-block;
+  width: 6px;
+  height: 9px;
+  margin: 5.5px 0 0 8px;
+  vertical-align: text-top;
+}
