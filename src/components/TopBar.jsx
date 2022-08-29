@@ -652,6 +652,7 @@ const TopBar = () => {
           </li>
         </ul>
       </div>
+      {/* 나눌영역 */}
       <div className="intro_main">
         <div className="intro_main_content">
           <h3 className="tit_main">
@@ -668,15 +669,167 @@ const TopBar = () => {
             당신의 모든 일이 바뀌고 있습니다.
           </p>
           <ul className="list_store">
-            <li>
-              <a href="#" className="link_store"></a>
+            <li className="link_stores">
+              <a href="#" className="link_store">
+                <span className="img_kabang"></span>
+                GooglePlay
+              </a>
             </li>
-            <li>
-              <a href="#" className="link_store"></a>
+            <li className="link_stores">
+              <a href="#" className="link_store">
+                <span className="img_kabang ico_app"></span>
+                App Store
+              </a>
             </li>
           </ul>
         </div>
         <div className="background-line"></div>
+      </div>
+      {/* 나눌 영역 */}
+      <div className="intro_cont cont_withdrawal">
+        <div className="cont_img">
+          <img
+            className="cont_img_img"
+            src="https://www.kakaobank.com/static/images/web/renewal/main-withdrawal.png"
+            alt="카카오뱅크 계좌 이체 화면"
+          />
+        </div>
+        <div className="cont_txt">
+          <h3 className="cont_txt_h3">
+            모바일로 더 손쉬운
+            <br />
+            계좌계설, 간편한 이체
+          </h3>
+          <p className="cont_txt_p">
+            인증서, OTP 없이 계좌 개설이 간편합니다.
+            <br />
+            여러건의 이체도 몇 번의 터치로 손쉽게 보낼 수 있습니다.
+          </p>
+        </div>
+        <div className="cont_btn">
+          <a className="link_bank" href="#">
+            카카오뱅크 입출금통장
+            <img
+              className="ico_arr"
+              src="https://www.kakaobank.com/static/images/web/home_arr.png"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+      {/* 나눌영역 */}
+      <div className="intro_cont_divider"></div>
+      {/* 나눌영역 */}
+      <div className="intro_cont cont_deposit_and_savings">
+        <div className="intro_cont_txt">
+          <h3 className="intro_cont_txt_h3">
+            우대조건 없이
+            <br />
+            합리적인 예금과 적금
+          </h3>
+          <p className="intro_cont_txt_p">
+            기대했던 금리와 다르게 복잡한 우대조건에 실망한 적이 있었나요?
+            <br />
+            카카오뱅크의 예금, 적금은 숨겨진 우대조건 없이 누구에게나 편리하고
+            합리적입니다.
+          </p>
+        </div>
+        <div className="intro_cont_btn">
+          <a className="link_deposit" href="#">
+            정기예금
+            <img
+              className="link_deposit_img"
+              src="https://www.kakaobank.com/static/images/web/home_arr.png"
+              alt=""
+            />
+          </a>
+          <a className="link_deposit" href="#">
+            자유적금
+            <img
+              className="link_deposit_img"
+              src="https://www.kakaobank.com/static/images/web/home_arr.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div className="intro_cont_img">
+          <img
+            className="intro_cont_img_img"
+            src="https://www.kakaobank.com/static/images/web/renewal/main-savings-money.png"
+            alt=""
+          />
+        </div>
+        <div className="intro_cont_img2">
+          <img
+            src="https://www.kakaobank.com/static/images/web/renewal/main-savings.png"
+            alt=""
+          />
+        </div>
+      </div>
+      {/* 나눌영역 */}
+      <div className="intro_cont_divider"></div>
+      <div className="intro_cont_4">
+        <div className="intro_cont_4_img">
+          <img
+            className="intro_cont_4_img"
+            src="https://www.kakaobank.com/static/images/web/renewal/main-moim.png"
+            alt=""
+          />
+        </div>
+        <div className="intro_cont_4_txt">
+          <h3>
+            함께 쓰고 같이 보는
+            <br />
+            모임통장
+          </h3>
+          <p>
+            카카오톡 친구를 모임통장으로 초대하고
+            <br />
+            친구들과 함께 잔액과 입출금 현황을 확인할 수 있습니다.
+            <br />
+            재미있는 메시지 가트로 회비 입금 요청도 해보세요.
+          </p>
+        </div>
+        <div className="intro_cont_4_btn">
+          <a href="#">
+            모임통장{" "}
+            <img
+              src="https://www.kakaobank.com/static/images/web/home_arr.png"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+      {/* 나눌영역 */}
+      <div className="intro_cont_divider"></div>
+      <div className="intro_cont_5">
+        <div className="intro_cont_5_txt">
+          <h3>
+            함께 도전해서
+            <br />
+            재미있는 26주적금
+          </h3>
+          <p>
+            26주동안 변화하는 재미에 빠져있는사이
+            <br />
+            어느덧 만기 달성 경험을 맛보게 됩니다.
+          </p>
+          <div className="intro_cont_5_btn">
+            <a href="#">
+              26주적금
+              <img
+                src="https://www.kakaobank.com/static/images/web/home_arr.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div className="intro_cont_5_img">
+            <img
+              src="https://www.kakaobank.com/static/images/web/renewal/main-26weeks.png"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

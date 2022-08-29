@@ -13,6 +13,9 @@ body {
   justify-content: center;
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  z-index: 30000;
+  background-color: white;
 }
 
 .nav-items {
@@ -100,7 +103,6 @@ body {
   position: absolute;
   left: 0;
   width: 100%;
-  height: 489.5px;
   transform: translateY(1px);
   background-color: white;
   top: 80px;
@@ -129,7 +131,7 @@ body {
 
 .intro_main .tit_main {
   position: absolute;
-  top: 135px;
+  top: 200px;
   left: 90px;
   font-weight: bold;
   font-size: 49px;
@@ -139,7 +141,7 @@ body {
 
 .intro_main .tit_sub {
   position: absolute;
-  top: 290px;
+  top: 355px;
   left: 92px;
   font-size: 16px;
   line-height: 1.95;
@@ -149,7 +151,7 @@ body {
 
 .intro_main .tit_sub2 {
   position: absolute;
-  top: 365px;
+  top: 430px;
   left: 92px;
   font-size: 16px;
   line-height: 1.95;
@@ -160,5 +162,307 @@ body {
 .intro_main .list_store {
   overflow: hidden;
   position: absolute;
-  top: 480px;
+  top: 510px;
+  margin-left: 85px;
+}
+
+.link_stores {
+  float: left;
+  height: 60px;
+  padding: 0 6px;
+}
+
+.intro_main .link_store {
+  display: block;
+  width: 178px;
+  height: 56px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  font-size: 16.2px;
+  font-weight: bold;
+  line-height: 56px;
+  color: #333;
+  background: #fff;
+  text-align: center;
+}
+.intro_main .list_store .img_kabang {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: -2px 10px 0 0;
+  background-position: -341px -292px;
+  text-indent: 0;
+  vertical-align: middle;
+}
+.img_kabang {
+  display: block;
+  overflow: hidden;
+  background-image: url("https://www.kakaobank.com/static/images/web/img_kabang_220615.png");
+}
+
+.intro_main .list_store .ico_app {
+  width: 24px;
+  height: 24px;
+  margin-top: -4px;
+  background-position: -371px -292px;
+}
+
+.intro_cont.cont_withdrawal {
+  height: 750px;
+  position: relative;
+}
+
+.intro_cont {
+  display: flex;
+  justify-content: center;
+}
+
+.cont_img_img {
+  width: 473px;
+  margin-right: 500px;
+}
+
+.cont_txt {
+  top: -20px;
+  position: absolute;
+  left: 50%;
+  margin-left: 100px;
+}
+
+.cont_txt_h3 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.35;
+  margin-top: 200px;
+}
+
+.cont_txt_p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-top: 25px;
+}
+.cont_btn {
+  top: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: 100px;
+}
+
+.link_bank {
+  display: block;
+  width: 258px;
+  height: 56px;
+  background-color: #f6f6f6;
+  font-size: 16px;
+  line-height: 56px;
+  text-align: center;
+  border-radius: 10px;
+}
+.link_bank:hover {
+  text-decoration: underline;
+}
+
+.ico_arr {
+  display: inline-block;
+  width: 6px;
+  height: 9px;
+  margin-left: 5px;
+  margin-bottom: 4.5px;
+}
+.intro_cont_divider {
+  width: 100%;
+  height: 32px;
+  background-color: #fafafa;
+}
+
+.intro_cont {
+  height: 750px;
+  background-color: white;
+  position: relative;
+}
+
+.intro_cont_txt {
+  position: absolute;
+  top: 172px;
+  left: 50%;
+  margin-left: -470px;
+}
+.intro_cont_txt_h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.intro_cont_btn {
+  position: absolute;
+  top: 385px;
+  left: 50%;
+  margin-left: -470px;
+  display: flex;
+}
+
+.intro_cont_btn > .link_deposit {
+  display: block;
+  width: 158px;
+  height: 56px;
+  background-color: #f6f6f6;
+  text-align: center;
+  font-size: 15px;
+  line-height: 56px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.intro_cont_btn > .link_deposit:hover {
+  text-decoration: underline;
+}
+
+.intro_cont_btn > .link_deposit > .link_deposit_img {
+  display: inline-block;
+  width: 6px;
+  height: 9px;
+  margin: 5.5px 0 0 8px;
+  vertical-align: text-top;
+}
+
+.intro_cont_img {
+  position: absolute;
+  top: 500px;
+  margin-right: 50px;
+}
+.intro_cont_img_img {
+  width: 440px;
+}
+
+.intro_cont_img2 {
+  display: none;
+  position: absolute;
+  width: 409px;
+  height: 722px;
+  margin-left: 800px;
+}
+
+// 나눌영역
+.intro_cont_4 {
+  height: 750px;
+  position: relative;
+}
+
+.intro_cont_4_img > img {
+  position: absolute;
+  top: 85px;
+  right: 50%;
+  width: 459px;
+  height: 607px;
+  margin-right: 24px;
+}
+.intro_cont_4_txt {
+  position: absolute;
+  top: 215px;
+  left: 50%;
+  margin-left: 90px;
+}
+
+.intro_cont_4_txt > h3 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.35;
+}
+
+.intro_cont_4_txt > p {
+  margin-top: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #666;
+}
+.intro_cont_4_btn {
+  position: absolute;
+  top: 455px;
+  left: 50%;
+  margin-left: 90px;
+}
+
+.intro_cont_4_btn > a {
+  display: block;
+  background-color: #f6f6f6;
+  width: 258px;
+  height: 56px;
+  font-size: 16px;
+  line-height: 56px;
+  color: #333;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.intro_cont_4_btn > a > img {
+  display: inline-block;
+  width: 6px;
+  height: 9px;
+  margin: 5.5px 0 0 8px;
+  vertical-align: text-top;
+}
+
+//나눌영역
+
+.intro_cont_5 {
+  height: 650px;
+  position: relative;
+  background-color: white;
+}
+
+.intro_cont_5_txt {
+  position: absolute;
+  top: 177px;
+  left: 50%;
+  margin-left: -410px;
+}
+
+.intro_cont_5_txt > h3 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.35;
+}
+
+.intro_cont_5_txt > p {
+  margin-top: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #666;
+}
+
+.intro_cont_5_btn {
+  position: absolute;
+  top: 395px;
+  left: 50%;
+  margin-left: -410px;
+  border-color: #c2c2c2;
+}
+.intro_cont_5_btn > a {
+  display: block;
+  background-color: #f6f6f6;
+  width: 258px;
+  height: 56px;
+  font-size: 16px;
+  line-height: 56px;
+  color: #333;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.intro_cont_5_btn > a > img {
+  display: inline-block;
+  width: 6px;
+  height: 9px;
+  margin: 5.5px 0 0 8px;
+  vertical-align: text-top;
+}
+
+.intro_cont_5_img > img {
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  margin-left: 40px;
+  width: 492px;
+  height: 408px;
 }
