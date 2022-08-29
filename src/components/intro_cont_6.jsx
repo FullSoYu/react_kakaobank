@@ -11,6 +11,7 @@ const Intro_cont_6 = () => {
       <div className="intro_cont_6">
         <div className="intro_cont_6_img">
           <img
+            data-aos="fade-up"
             src="https://www.kakaobank.com/static/images/web/renewal/main-foreignRemittance-new.png"
             alt=""
           />

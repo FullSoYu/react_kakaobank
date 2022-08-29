@@ -19,7 +19,40 @@ const intro_cont_7 = () => {
             있습니니다.
           </p>
         </div>
-        <div className="intro_cont_7_btn"></div>
+        <div className="intro_cont_7_btn">
+          <a href="#">
+            마이너스 통장대출
+            <img
+              src="https://www.kakaobank.com/static/images/web/home_arr2.png"
+              alt=""
+            />
+          </a>
+          <a href="#">
+            신용대출
+            <img
+              src="https://www.kakaobank.com/static/images/web/home_arr2.png"
+              alt=""
+            />
+          </a>
+          <a href="#">
+            개인사업자 대출
+            <img
+              src="https://www.kakaobank.com/static/images/web/home_arr2.png"
+              alt=""
+            />
+          </a>
+          <a href="#">
+            전월세보증금 대출
+            <img
+              src="https://www.kakaobank.com/static/images/web/home_arr2.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <span className="moon">
+          <span className="moon_original"></span>
+          <span className="moon_shadow"></span>
+        </span>
       </div>
     </div>
   );
