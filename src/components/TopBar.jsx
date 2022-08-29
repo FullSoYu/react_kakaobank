@@ -766,7 +766,6 @@ const TopBar = () => {
           />
         </div>
       </div>
-<<<<<<< HEAD
       {/* 나눌영역 */}
       <div className="intro_cont_divider"></div>
       <div className="intro_cont_4">
@@ -832,8 +831,6 @@ const TopBar = () => {
           </div>
         </div>
       </div>
-=======
->>>>>>> 75b20aa9fe850d681624fb7dd2d1faeb77f2f28f
     </div>
   );
 };
