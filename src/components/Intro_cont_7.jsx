@@ -10,7 +10,7 @@ const intro_cont_7 = () => {
       <div></div>
       <div className="intro_cont_7">
         <div className="intro_cont_7_bg_1"></div>
-        <div3 className="intro_cont_7_bg_2"></div3>
+        <div className="intro_cont_7_bg_2"></div>
         <div className="intro_cont_7_img">
           <img
             src="https://www.kakaobank.com/static/images/web/renewal/main-loan.png"
@@ -57,17 +57,55 @@ const intro_cont_7 = () => {
         <span className="moon">
           <span className="moon_original"></span>
           <span className="moon_shadow"></span>
+          <span
+            className="star star1"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          ></span>
+          <span
+            className="star star2"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          ></span>
+          <span
+            className="star star3"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          ></span>
+          <span
+            className="star star4"
+            data-aos="zoom-in"
+            data-aos-delay="400"
+          ></span>
+          <span
+            className="star star5"
+            data-aos="zoom-in"
+            data-aos-delay="500"
+          ></span>
+          <span
+            className="star star6"
+            data-aos="zoom-in"
+            data-aos-delay="600"
+          ></span>
+          <span
+            className="star star7"
+            data-aos="zoom-in"
+            data-aos-delay="700"
+          ></span>
         </span>
       </div>
     </div>
   );
 };
 
-let mainbg = document.querySelector("div3");
+let mainBg = document.querySelector("intro_cont_7_bg_2");
 
 window.addEventListener("scroll", function () {
-  let value = window.screenY;
+  let value = window.scrollY;
   console.log("scollY", value);
+  if (value < 3940) {
+    mainBg.style.animation = "disappear";
+  }
 });
 
 export default intro_cont_7;

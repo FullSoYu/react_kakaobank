@@ -1,31 +1,41 @@
 .intro_cont_7 {
   height: 930px;
   position: relative;
-  background-color: #559cde;
+  background-color: #fff;
 }
-// .intro_cont_7_bg_1 {
-//   position: absolute;
-//   background-color: #559cde;
-//   height: 100%;
-//   width: 100%;
-// }
+
+.intro_cont_7_bg_1 {
+  position: absolute;
+  background-color: #559cde;
+  height: 100%;
+  width: 100%;
+}
 
 .intro_cont_7_bg_2 {
   position: absolute;
   background-color: #333b58;
   height: 100%;
   width: 100%;
-  animation: slide 2s ease-in-out;
+  animation: intro_cont_7_bg_2 1s ease-in;
 }
 
-@keyframes slide {
+@keyframes intro_cont_7_bg_2 {
   from {
-    bottom: 0;
-  }
-  to {
     top: 100%;
   }
+  to {
+    top: 0;
+  }
 }
+
+// @keyframes disappear {
+//   from {
+//     top: 0;
+//   }
+//   to {
+//     top: 100%;
+//   }
+// }
 
 .intro_cont_7_img > img {
   position: absolute;
@@ -87,4 +97,41 @@
   height: 9px;
   margin: 5.5px 0 0 8px;
   vertical-align: text-top;
+}
+
+.star {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.star1 {
+  top: 30%;
+  left: 10%;
+}
+.star2 {
+  top: 10%;
+  left: 20%;
+}
+.star3 {
+  top: 25%;
+  left: 15%;
+}
+.star4 {
+  top: 40%;
+  right: 15%;
+}
+.star5 {
+  top: 43%;
+  right: 30%;
+}
+.star6 {
+  top: 73%;
+  right: 27%;
+}
+.star7 {
+  top: 65%;
+  left: 2%;
 }
