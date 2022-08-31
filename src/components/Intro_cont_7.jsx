@@ -1,11 +1,16 @@
-import React from "react";
 import "../styles/Intro_cont_7.scss";
+import AOS from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
+AOS.init({ duration: 3000 });
 
 const intro_cont_7 = () => {
   return (
     <div>
       <div></div>
       <div className="intro_cont_7">
+        <div className="intro_cont_7_bg_1"></div>
+        <div3 className="intro_cont_7_bg_2"></div3>
         <div className="intro_cont_7_img">
           <img
             src="https://www.kakaobank.com/static/images/web/renewal/main-loan.png"
@@ -57,5 +62,12 @@ const intro_cont_7 = () => {
     </div>
   );
 };
+
+let mainbg = document.querySelector("div3");
+
+window.addEventListener("scroll", function () {
+  let value = window.screenY;
+  console.log("scollY", value);
+});
 
 export default intro_cont_7;

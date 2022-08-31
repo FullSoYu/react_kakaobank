@@ -1,7 +1,30 @@
 .intro_cont_7 {
   height: 930px;
   position: relative;
-  background-color: green;
+  background-color: #559cde;
+}
+// .intro_cont_7_bg_1 {
+//   position: absolute;
+//   background-color: #559cde;
+//   height: 100%;
+//   width: 100%;
+// }
+
+.intro_cont_7_bg_2 {
+  position: absolute;
+  background-color: #333b58;
+  height: 100%;
+  width: 100%;
+  animation: slide 2s ease-in-out;
+}
+
+@keyframes slide {
+  from {
+    bottom: 0;
+  }
+  to {
+    top: 100%;
+  }
 }
 
 .intro_cont_7_img > img {
