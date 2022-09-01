@@ -1,6 +1,6 @@
 import "../styles/Intro_cont_7.scss";
 import AOS from "aos";
-import React, { useEffect } from "react";
+import React, { useEffect, usest } from "react";
 import "aos/dist/aos.css";
 AOS.init({ duration: 3000 });
 
@@ -98,14 +98,37 @@ const intro_cont_7 = () => {
   );
 };
 
-let mainBg = document.querySelector("intro_cont_7_bg_2");
+let intro_cont_7_bg = document.querySelector("intro_cont_7_bg_2");
 
 window.addEventListener("scroll", function () {
   let value = window.scrollY;
   console.log("scollY", value);
   if (value < 3940) {
-    mainBg.style.animation = "disappear";
+    intro_cont_7_bg.animaition = "diapear 1s ease-out";
   }
 });
+//==================Uncaught TypeError: Cannot read properties of null (reading 'style') at 에러 발생 스크롤 값은 나오나
+//스크롤 값으로 애니매이션 동작을 좌지우지 할 수 없음
 
+//======동작안됨=============
+// const [scroll, setScroll] = useState(false);
+
+// useEffect(() => {
+//   window.addEventListener("scroll", handleScroll);
+//   return () => {
+//     window.removeEventListener("scroll", handleScroll); //clean up
+//   };
+// }, []);
+
+// const handleScroll = () => {
+//   // 스크롤이 Top에서 50px 이상 내려오면 true값을 useState에 넣어줌
+//   if (window.scrollY >= 3940) {
+//     setScroll(true);
+//     console.log(scroll);
+//   } else {
+//     // 스크롤이 50px 미만일경우 false를 넣어줌
+//     setScroll(false);
+//   }
+// };
+//==============================
 export default intro_cont_7;
