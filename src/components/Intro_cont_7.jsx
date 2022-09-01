@@ -2,6 +2,7 @@ import "../styles/Intro_cont_7.scss";
 import AOS from "aos";
 import React, { useEffect, usest } from "react";
 import "aos/dist/aos.css";
+
 AOS.init({ duration: 3000 });
 
 const intro_cont_7 = () => {
@@ -57,42 +58,14 @@ const intro_cont_7 = () => {
         <span className="moon">
           <span className="moon_original"></span>
           <span className="moon_shadow"></span>
-          <span
-            className="star star1"
-            data-aos="zoom-in"
-            data-aos-delay="100"
-          ></span>
-          <span
-            className="star star2"
-            data-aos="zoom-in"
-            data-aos-delay="200"
-          ></span>
-          <span
-            className="star star3"
-            data-aos="zoom-in"
-            data-aos-delay="300"
-          ></span>
-          <span
-            className="star star4"
-            data-aos="zoom-in"
-            data-aos-delay="400"
-          ></span>
-          <span
-            className="star star5"
-            data-aos="zoom-in"
-            data-aos-delay="500"
-          ></span>
-          <span
-            className="star star6"
-            data-aos="zoom-in"
-            data-aos-delay="600"
-          ></span>
-          <span
-            className="star star7"
-            data-aos="zoom-in"
-            data-aos-delay="700"
-          ></span>
         </span>
+        <span className="star star1"></span>
+        <span className="star star2"></span>
+        <span className="star star3"></span>
+        <span className="star star4"></span>
+        <span className="star star5"></span>
+        <span className="star star6"></span>
+        <span className="star star7"></span>
       </div>
     </div>
   );
@@ -104,7 +77,7 @@ window.addEventListener("scroll", function () {
   let value = window.scrollY;
   console.log("scollY", value);
   if (value < 3940) {
-    intro_cont_7_bg.animaition = "diapear 1s ease-out";
+    intro_cont_7_bg.styled.animaition = "diapear 1s ease-out";
   }
 });
 //==================Uncaught TypeError: Cannot read properties of null (reading 'style') at 에러 발생 스크롤 값은 나오나

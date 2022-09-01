@@ -2,7 +2,7 @@ import "../styles/Intro_cont_3.scss";
 import AOS from "aos";
 import React, { useEffect } from "react";
 import "aos/dist/aos.css";
-AOS.init({ duration: 1000 });
+AOS.init({ duration: 2000 });
 
 const Intro_cont_3 = () => {
   return (
