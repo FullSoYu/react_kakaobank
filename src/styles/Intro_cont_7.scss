@@ -28,14 +28,14 @@
   }
 }
 
-@keyframes disappear {
-  from {
-    top: 0;
-  }
-  to {
-    top: 100%;
-  }
-}
+// @keyframes disappear {
+//   from {
+//     top: 0;
+//   }
+//   to {
+//     top: 100%;
+//   }
+// }
 
 .intro_cont_7_img > img {
   position: absolute;
@@ -108,25 +108,45 @@
   margin-left: 450px;
   border-radius: 56px;
   background-color: #ffdc00;
-}
-
-.moon::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 56px;
-  background-color: white;
-  animation: sun 1s infinite;
   overflow: hidden;
 }
 
-@keyframes sun {
-  from {
-    top: -50%;
+.moon_original {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 56px;
+  background-color: white;
+  animation: moon 1s;
+}
+@keyframes moon {
+  0% {
+    opacity: 0;
   }
-  to {
-    top: 0;
+  100% {
+    opacity: 1;
+  }
+}
+
+.moon_shadow {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 56px;
+  background-color: #333b58;
+  top: -23%;
+  left: -23%;
+  animation: shadow 1s ease-in-out;
+}
+
+@keyframes shadow {
+  0% {
+    top: -100%;
+    left: -100%;
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
   }
 }
 
@@ -181,20 +201,20 @@
 .star4 {
   top: 40%;
   right: 15%;
-  animation: dot 3s 4s infinite;
+  animation: dot 3s 1s infinite;
 }
 .star5 {
   top: 43%;
   right: 30%;
-  animation: dot 3s 5s infinite;
+  animation: dot 3s 2s infinite;
 }
 .star6 {
   top: 73%;
   right: 27%;
-  animation: dot 3s 6s infinite;
+  animation: dot 3s 3s infinite;
 }
 .star7 {
   top: 65%;
   left: 22%;
-  animation: dot 3s 7s infinite;
+  animation: dot 3s 1s infinite;
 }
