@@ -103,26 +103,50 @@
   position: absolute;
   top: 200px;
   left: 50%;
-  width: 112px;
-  height: 112px;
-  margin-left: 450px;
-  border-radius: 56px;
-}
-
-.moon_original {
-  position: absolute;
   width: 110px;
   height: 110px;
-  border-radius: 55px;
+  margin-left: 450px;
+  border-radius: 56px;
   background-color: #ffdc00;
 }
-.moon_shadow {
+
+.moon::before {
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 55px;
+  border-radius: 56px;
   background-color: white;
+  animation: sun 1s infinite;
+  overflow: hidden;
 }
+
+@keyframes sun {
+  from {
+    top: -50%;
+  }
+  to {
+    top: 0;
+  }
+}
+
+// .moon_original {
+//   position: absolute;
+//   width: 110px;
+//   height: 110px;
+//   border-radius: 55px;
+//   background-color: #ffdc00;
+// }
+// .moon_original ::before {
+//   content: "";
+//   position: absolute;
+//   width: 110px;
+//   height: 110px;
+//   top: 100%;
+//   border-radius: 55px;
+//   background-color: red;
+//   z-index: -1;
+// }
 
 .star {
   position: absolute;
