@@ -9,6 +9,7 @@ import Intro_cont_6 from "./components/Intro_cont_6";
 import Intro_cont_7 from "./components/Intro_cont_7";
 import Intro_cont_8 from "./components/Intro_cont_8";
 import Intro_cont_9 from "./components/Intro_cont_9";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Intro_cont_7 />
       <Intro_cont_8 />
       <Intro_cont_9 />
+      <Footer />
     </div>
   );
 }
