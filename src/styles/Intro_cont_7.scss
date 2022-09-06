@@ -107,8 +107,14 @@
   height: 110px;
   margin-left: 450px;
   border-radius: 56px;
+}
+
+.sun {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 56px;
   background-color: #ffdc00;
-  overflow: hidden;
 }
 
 .moon_original {
@@ -134,9 +140,9 @@
   height: 110px;
   border-radius: 56px;
   background-color: #333b58;
-  top: -23%;
-  left: -23%;
-  animation: shadow 1s ease-in-out;
+  top: -25%;
+  left: -25%;
+  animation: shadow 1s;
 }
 
 @keyframes shadow {
@@ -145,9 +151,12 @@
     left: -100%;
     opacity: 0;
   }
+<<<<<<< HEAD
   100% {
     opacity: 1;
   }
+=======
+>>>>>>> 712aa8a295fe2d7331f01c9f23fd7127f0d100ba
 }
 
 // .moon_original {
