@@ -56,8 +56,8 @@ const intro_cont_7 = () => {
           </a>
         </div>
         <span className="moon">
+          <span className="sun"></span>
           <span className="moon_original"></span>
-
           <span className="moon_shadow"></span>
         </span>
         <span className="star star1"></span>
