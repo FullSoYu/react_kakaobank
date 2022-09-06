@@ -107,6 +107,7 @@
   height: 110px;
   margin-left: 450px;
   border-radius: 56px;
+  overflow: hidden;
 }
 
 .sun {
@@ -151,12 +152,10 @@
     left: -100%;
     opacity: 0;
   }
-<<<<<<< HEAD
+
   100% {
     opacity: 1;
   }
-=======
->>>>>>> 712aa8a295fe2d7331f01c9f23fd7127f0d100ba
 }
 
 // .moon_original {
