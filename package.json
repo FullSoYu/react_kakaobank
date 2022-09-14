@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/react-slick": "^0.23.10",
     "aos": "^2.3.4",
     "classnames": "^2.3.1",
     "jquery": "^3.6.1",
@@ -14,7 +15,10 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-scroll-motion": "^0.3.0",
+    "react-slick": "^0.29.0",
+    "react-slider": "^2.0.4",
     "sass": "^1.54.4",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },

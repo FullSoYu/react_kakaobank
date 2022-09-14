@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Intro_cont_8.scss";
+import Intro_cont_8_Slick from "../components/Intro_cont_8_Slick";
 
 const intro_cont_8 = () => {
   return (
@@ -27,6 +28,7 @@ const intro_cont_8 = () => {
           </a>
         </div>
         <div className="intro_cont_8_img"></div>
+        <Intro_cont_8_Slick />
       </div>
     </div>
   );
