@@ -1,8 +1,8 @@
 import React from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "../styles/Intro_cont_8_Slick.scss";
+import "../styles/slick-carousel/slick/slick-theme.css";
+import "../styles/slick-carousel/slick/slick.css";
 
 const Intro_cont_8_Slick = () => {
   const settings = {
@@ -16,7 +16,7 @@ const Intro_cont_8_Slick = () => {
     arrows: true,
     speed: 500,
     centerMode: true,
-    centerPadding: 0,
+    centerPadding: "150px",
   };
 
   return (

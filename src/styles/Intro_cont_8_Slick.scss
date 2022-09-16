@@ -1,8 +1,9 @@
 .carousel {
   position: relative;
-  width: 720px;
   top: 100px;
   border: 1px solid red;
+  width: 720px;
+  overflow: hidden;
 }
 
 .img-box {
@@ -10,4 +11,8 @@
   margin-right: auto;
   width: 240px;
   display: block;
+}
+
+.slick-center {
+  transform: scale(1.3);
 }
