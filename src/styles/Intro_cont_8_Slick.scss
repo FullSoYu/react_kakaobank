@@ -1,14 +1,19 @@
 .carousel {
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   top: 100px;
-  border: 1px solid red;
-  width: 720px;
+  // border: 1px solid red;
+  width: 740px;
+  height: 500px;
   overflow: hidden;
 }
 
+.item {
+  margin-top: 50px;
+}
+
 .img-box {
-  margin-left: auto;
-  margin-right: auto;
   width: 240px;
   display: block;
 }

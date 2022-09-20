@@ -1,10 +1,8 @@
 /* Slider */
 .slick-slider {
   position: relative;
-
   display: block;
   box-sizing: border-box;
-
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -19,12 +17,11 @@
 
 .slick-list {
   position: relative;
-
   display: block;
   /* overflow: hidden; */
-
   margin: 0;
   padding: 0;
+  left: -16%;
 }
 .slick-list:focus {
   outline: none;
@@ -47,7 +44,6 @@
   position: relative;
   top: 0;
   left: 0;
-
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -97,6 +93,24 @@
 
   border: 1px solid transparent;
 }
-.slick-arrow.slick-hidden {
+/* .slick-arrow.slick-hidden {
   display: none;
+} */
+.slick-arrow {
+  z-index: 10;
+}
+
+.slick-next {
+  position: absolute;
+  right: 35%;
+}
+.slick-prev {
+  left: 10%;
+}
+
+.slick-next:before {
+  content: url("https://www.kakaobank.com/static/images/web/img-right.png");
+}
+.slick-prev:before {
+  content: url("https://www.kakaobank.com/static/images/web/img-left.png");
 }
