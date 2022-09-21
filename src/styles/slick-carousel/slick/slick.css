@@ -18,10 +18,13 @@
 .slick-list {
   position: relative;
   display: block;
-  /* overflow: hidden; */
+  overflow: hidden;
   margin: 0;
   padding: 0;
-  left: -16%;
+  /* left: -10%; */
+  height: 500px;
+  /* border: 1px solid red; */
+  margin-right: 300px;
 }
 .slick-list:focus {
   outline: none;
@@ -101,11 +104,10 @@
 }
 
 .slick-next {
-  position: absolute;
-  right: 35%;
+  right: 5%;
 }
 .slick-prev {
-  left: 10%;
+  left: -20%;
 }
 
 .slick-next:before {

@@ -36,7 +36,7 @@ const Intro_cont_8_Slick = () => {
     Infinity: true,
     speed: 500,
     centerMode: true,
-    centerPadding: "150px",
+    centerPadding: "0",
     arrows: true,
     // nextArrow: <SampleNextArrow />,
     // prevArrow: <SamplePrevArrow />,
