@@ -23,6 +23,7 @@
   padding: 0;
   /* left: -10%; */
   height: 500px;
+
   /* border: 1px solid red; */
   margin-right: 300px;
 }
@@ -104,10 +105,10 @@
 }
 
 .slick-next {
-  right: 5%;
+  right: 20%;
 }
 .slick-prev {
-  left: -20%;
+  left: -10%;
 }
 
 .slick-next:before {
