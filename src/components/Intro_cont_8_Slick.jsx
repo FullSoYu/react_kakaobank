@@ -4,28 +4,6 @@ import "../styles/Intro_cont_8_Slick.scss";
 import "../styles/slick-carousel/slick/slick-theme.css";
 import "../styles/slick-carousel/slick/slick.css";
 
-// const SampleNextArrow = (props) => {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: "block", background: "red" }}
-//       onClick={onClick}
-//     />
-//   );
-// };
-
-// const SamplePrevArrow = (props) => {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: "block", background: "green" }}
-//       onClick={onClick}
-//     />
-//   );
-// };
-
 const Intro_cont_8_Slick = () => {
   const settings = {
     autoplay: false,
@@ -38,8 +16,6 @@ const Intro_cont_8_Slick = () => {
     centerMode: true,
     centerPadding: "0",
     arrows: true,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />,
   };
 
   return (
