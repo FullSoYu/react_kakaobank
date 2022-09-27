@@ -44,7 +44,7 @@ const TopBar = () => {
                   </ul>
                   <ul className="nav-links">
                     <li className="nav-link">
-                      <a href="#" className="nav-anchor">
+                      <a href="/Location" className="nav-anchor">
                         오시는길
                       </a>
                     </li>
